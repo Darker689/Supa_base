@@ -25,7 +25,7 @@ import Text from "./language/Text";
 function App() {
   const {product, developers, beta, pricing, start, sign, your,pass, loginn, database, authen, storage, functionn, coming, support, resourse, cases, system, terms, docum, refer, guides, comp, blog, open, law, store, an, withh, start1, inter, integ, light, thin, sleek, objec, drag, file, column, list, multi, pat, any, out, prof, upda, creat, manag, dep, integ1, lev, store1, expore, pub, pub1, authe, simpl, built,fasts, integ2, serve, auoto, resizes, file1, file2, file3, file4, file5, buiders} = Text;
 
-  const [langu, setLangu] = useState(0)
+  const [langu, setLangu] = useState(0);
 
   useEffect(()=>{
     const getLangu = JSON.parse(localStorage.getItem('langu'))

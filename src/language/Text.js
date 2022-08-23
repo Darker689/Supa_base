@@ -1,4 +1,4 @@
-export default Text = {
+const Text = {
     product: ['Product', 'Mahsulot'],
     developers: ['Developers', 'Dasturchilar'],
     beta: ['Beta', 'Beta'],
@@ -69,3 +69,4 @@ export default Text = {
     file5: ['Delete files', 'Fayllarni o`chirish'],
     buiders: ['Build in a weekend, scale to millions', 'Dam olish kunlarida quring, millionlab odamlarga o`tkazing']
 }
+export default Text;
