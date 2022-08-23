@@ -10,11 +10,11 @@ const Login = () => {
     const { setAuth, currentLogin, currentPassword, langu, sign, your, pass, loginn} = useContext(Context)
 
     const [login, setLogin] = useState('')
-    const [ setPassword] = useState('')
+    const [password, setPassword] = useState('')
 
     const loginSubnit = e => {
         e.preventDefault()
-        login === currentLogin && currentPassword && setAuth(true)
+        login === currentLogin && password === currentPassword && setAuth(true)
     }
 
   return (
