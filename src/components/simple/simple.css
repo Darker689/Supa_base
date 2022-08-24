@@ -94,5 +94,6 @@
     }
     .simple_main_text_div{
         flex-direction: column;
+        row-gap: 10px;
     }
 }
