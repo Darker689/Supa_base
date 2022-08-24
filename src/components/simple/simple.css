@@ -92,4 +92,7 @@
         width: 100%;
         margin-top: 40px;
     }
+    .simple_main_text_div{
+        flex-direction: column;
+    }
 }
